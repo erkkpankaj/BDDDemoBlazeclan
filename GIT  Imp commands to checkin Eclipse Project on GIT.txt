@@ -1,0 +1,14 @@
+C:\Users\kuldeep.kumar\GITStuff\MobileAutomation>git init
+
+C:\Users\erkul\GITStuff\CollectionFramework>git add *
+
+C:\Users\erkul\GITStuff\CollectionFramework>git status
+
+C:\Users\erkul\GITStuff\CollectionFramework>git commit -m "Collection Framework"
+
+C:\Users\erkul\GITStuff\CollectionFramework>git remote add origin https://github.com/erkkpankaj/Collection-Framework.git
+
+<NOTE: THIS IS THE PATCH OF REPOSITRY CREATED IN GIT HUB>
+
+C:\Users\erkul\GITStuff\CollectionFramework>git push -u origin master
+

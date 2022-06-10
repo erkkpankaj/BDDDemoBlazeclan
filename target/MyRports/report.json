@@ -1,0 +1,105 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-09T06:21:25.951Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3494500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.blazeclan.qa.setpsDefinition.Serach.launchTheBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Test the search functionality on Demo application",
+        "description": "",
+        "id": "validate-the-seach-fetaure-on-the-demo-application;test-the-search-functionality-on-demo-application",
+        "after": [
+          {
+            "result": {
+              "duration": 125661800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.blazeclan.qa.setpsDefinition.Serach.closeTheBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10395721500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User opens the browser",
+            "match": {
+              "location": "com.blazeclan.qa.setpsDefinition.Serach.user_opens_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: Page title mismatched expected [nopCommerce demo storeAAAA] but found [nopCommerce demo store]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:140)\r\n\tat org.testng.Assert.assertEquals(Assert.java:122)\r\n\tat org.testng.Assert.assertEquals(Assert.java:629)\r\n\tat com.blazeclan.qa.setpsDefinition.Serach.user_on_homepage_check_the_homepage_title(Serach.java:28)\r\n\tat ✽.User on homepage check the homepage title(file:///C:/BlazeclanAutomation/BDDAutomation/src/test/java/com/blazeclan/qa/features/Search.feature:5)\r\n",
+              "duration": 7798600,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "User on homepage check the homepage title",
+            "match": {
+              "location": "com.blazeclan.qa.setpsDefinition.Serach.user_on_homepage_check_the_homepage_title()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 998000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Enter the search item in search store field",
+            "match": {
+              "location": "com.blazeclan.qa.setpsDefinition.Serach.enter_the_search_item_in_search_store_field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Click on the search button",
+            "match": {
+              "location": "com.blazeclan.qa.setpsDefinition.Serach.click_on_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Check for page title",
+            "match": {
+              "location": "com.blazeclan.qa.setpsDefinition.Serach.check_for_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate the Seach fetaure on the Demo application",
+    "description": "",
+    "id": "validate-the-seach-fetaure-on-the-demo-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/blazeclan/qa/features/Search.feature",
+    "tags": []
+  }
+]

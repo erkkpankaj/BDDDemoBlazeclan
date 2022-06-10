@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="10.838">
+    <testcase classname="Validate the Seach fetaure on the Demo application" name="Test the search functionality on Demo application" time="10.627">
+        <failure message="Page title mismatched expected [nopCommerce demo storeAAAA] but found [nopCommerce demo store]" type="java.lang.AssertionError"><![CDATA[Given User opens the browser................................................passed
+When User on homepage check the homepage title..............................failed
+Then Enter the search item in search store field............................skipped
+And Click on the search button..............................................skipped
+Then Check for page title...................................................skipped
+
+StackTrace:
+java.lang.AssertionError: Page title mismatched expected [nopCommerce demo storeAAAA] but found [nopCommerce demo store]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at com.blazeclan.qa.setpsDefinition.Serach.user_on_homepage_check_the_homepage_title(Serach.java:28)
+	at ✽.User on homepage check the homepage title(file:///C:/BlazeclanAutomation/BDDAutomation/src/test/java/com/blazeclan/qa/features/Search.feature:5)
+]]></failure>
+    </testcase>
+</testsuite>
